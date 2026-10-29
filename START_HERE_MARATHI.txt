@@ -1,0 +1,11 @@
+EMAIL SPAM CLASSIFICATION PROJECT — सुरुवात (मराठी)
+
+1. ZIP extract करा आणि folder VS Code मध्ये उघडा.
+2. Terminal > New Terminal निवडा.
+3. python -m venv .venv
+4. .\.venv\Scripts\Activate.ps1
+5. python -m pip install -r requirements.txt
+6. Terminal version: python spam_classifier.py
+7. Web interface: streamlit run app.py
+
+टीप: emails.csv हा छोटा demo dataset आहे. Accuracy तुमच्या run नुसार बदलू शकते. हा प्रोजेक्ट शिकण्यासाठी आहे; प्रत्यक्ष email security साठी वापरू नका.
